@@ -120,7 +120,7 @@ To run the program in the background, you can choose from several methods:
 
 - **[PM2](https://pm2.keymetrics.io/)**: A popular process manager for Node.js applications.
 - **[GNU Screen](https://wiki.archlinux.org/title/GNU_Screen)**: Use this terminal multiplexer to keep the bot running.
-- **Systemd Service**: Create a service to run the script in a Linux environment.
+- **Systemd Service**: Set up a service to execute the program within a Linux environment.
 
   ```bash
   sudo nano /etc/systemd/system/steam-farming.service
